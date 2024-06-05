@@ -8,7 +8,6 @@ public class Customer extends Person {
     public Customer(String name, String address, String phone, int customerID, int membershipLevel) {
         super();
         this.customerID = customerID;
-        this.membershipLevel = membershipLevel;
     }
 
     public int getCustomerID() {
